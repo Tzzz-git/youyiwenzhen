@@ -1,9 +1,15 @@
 <template>
-  <router-view />
+  <div>
+    <router-view />
+    <BottomNav />
+  </div>
 </template>
 
 <script lang="ts">
-export default {}
+import BottomNav from './components/BottomNav.vue'
+export default {
+  components: { BottomNav }
+}
 </script>
 
-<style scoped></style>
+<style></style>
