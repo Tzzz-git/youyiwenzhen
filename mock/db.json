@@ -1,0 +1,69 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "张志强",
+      "title": "主任医师",
+      "hospital": "市中心医院",
+      "price": 50,
+      "brief": "内科专家，擅长高血压、糖尿病等慢性病管理。",
+      "skills": "高血压、糖尿病、甲状腺疾病",
+      "avatar": ""
+    },
+    {
+      "id": 2,
+      "name": "李小红",
+      "title": "主治医师",
+      "hospital": "省人民医院",
+      "price": 30,
+      "brief": "儿科常见病诊治，耐心细致。",
+      "skills": "儿科常见病、发热、消化系统",
+      "avatar": ""
+    },
+    {
+      "id": 3,
+      "name": "王建国",
+      "title": "副主任医师",
+      "hospital": "市肿瘤医院",
+      "price": 80,
+      "brief": "肿瘤综合治疗，化疗方案制定。",
+      "skills": "肿瘤内科、化疗支持",
+      "avatar": ""
+    }
+  ],
+  "users": [
+    { "id": 1, "name": "演示用户" },
+    { "id": 2, "name": "患者小张" }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "doctorId": 1,
+      "patientId": 1,
+      "messages": [
+        { "from": 1, "text": "您好，最近头晕怎么办？", "time": "09:12" },
+        { "from": 1, "text": "请描述一下症状并告知既往病史。", "time": "09:13" }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "doctorId": 1,
+      "userId": 1,
+      "rating": 5,
+      "text": "张医生很耐心，解决了我的问题。",
+      "time": "2025-12-01T10:00:00Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "doctorId": 2,
+      "patientId": 1,
+      "date": "2026-07-05T09:30:00.000Z",
+      "note": "儿科专科门诊",
+      "status": "pending"
+    }
+  ]
+}
